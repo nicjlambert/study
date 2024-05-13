@@ -23,6 +23,16 @@ Which of the following is/are true regarding XMLA endpoints?
 [Reading](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
 
 ### Question 3
+
+You share a Lakehouse with another user. Which of the following is true about permissions the user will receive?
+
+By default, sharing a Lakehouse grants users read permission to the Lakehouse, the associated SQL endpoint, and the default semantic model. In addition to these default permissions, you can grant:
+
+1. ReadData permission on SQL endpoint to access data without SQL policy.
+2. ReadAll permission on the lakehouse to access all data using Apache Spark.
+3. Build permission on the default semantic model to allow building Power BI reports on top of the semantic model.
+
+
 [Reading #1](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-sharing)	
 [Reading #2](https://learn.microsoft.com/en-us/fabric/get-started/share-items)
 
