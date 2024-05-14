@@ -38,8 +38,17 @@ By default, sharing a Lakehouse grants users read permission to the Lakehouse, t
 
 ### Question 4
 
+You are Fabric administrator, and you want to purchase a Fabric capacity that allows you to execute light Fabric workloads and also allow up to 20 users to view Power BI reports in the most cost effective way. You decide to purchase an F 64 capacity. Does this meet the goal of minimizing cost?
+
+No, it would be cheaper to purchase an F2, F4 or F8 etc and purchase 20 Power BI Pro licenses at ~$10 per month.
+
 [Reading](https://learn.microsoft.com/en-us/fabric/enterprise/licenses)
 
 ### Question 5
+
+Where can sensitivity labels be applied?
+
+They can be applied in Power BI Desktop or Power BI Service (not Purview or the Micrsoft 365 Portal)
+
 [Reading #1](https://learn.microsoft.com/en-us/fabric/get-started/apply-sensitivity-labels)
 [Reading #2](https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-sensitivity-label-overview)
