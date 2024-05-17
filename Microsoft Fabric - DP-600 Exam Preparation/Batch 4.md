@@ -22,6 +22,16 @@ The specific reports and dashboards that will be affected by the change in the d
 
 ### Question 3
 
+When using XLMA endpoints for semantic model write operations, it is recommended to enable Large Model support for models over this size:
+
+1. 250MB
+2. 500MB
+3. 1GB <- ANS
+4. 5GB
+5. 10GB
+
+Workspaces use the `XML for Analysis (XMLA)` protocol for communications between client applications and the engine that manages your Power BI workspaces and semantic models.
+
 [Reading](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
 
 ### Question 4
