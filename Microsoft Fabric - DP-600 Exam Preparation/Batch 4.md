@@ -26,7 +26,7 @@ When using XLMA endpoints for semantic model write operations, it is recommended
 
 1. 250MB
 2. 500MB
-3. 1GB <- ANS
+3. 1GB **<- ANS**
 4. 5GB
 5. 10GB
 
@@ -36,9 +36,23 @@ Workspaces use the `XML for Analysis (XMLA)` protocol for communications between
 
 ### Question 4
 
+Which of the following are primary reasons for applying a sensitivity label to an item in Power BI?
+
+1. To let users know the item may contain sensitive data
+2. To ensure only authorised people can access the data **<- ANS**
+3. To prevent reports and queries from accessing the data
+4. To track user accounts and groups used in Microsoft Fabric permission settings
+
 [Reading #1](https://learn.microsoft.com/en-us/fabric/get-started/apply-sensitivity-labels)
 [Reading #2](https://learn.microsoft.com/en-us/power-bi/enterprise/service-security-sensitivity-label-overview)
 
 ### Question 5
+
+Which of the following true:
+
+1. Shared recipients only have access to the data warehouse shared with them and not any other items within the same workspace as the warehouse **<- ANS**
+2. Read all data using SQL permission gives the user granuar access to items in a data warehouse
+3. Shared recipients of a data warehouse are also able to re-share the data warehouse
+4. If a report is built on top of a data warehouse and is shared with another recipient, the shared recipient will always be able to acces the report
 
 [Reading](https://learn.microsoft.com/en-us/fabric/data-warehouse/share-warehouse-manage-permissions)
