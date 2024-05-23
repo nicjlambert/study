@@ -3,6 +3,7 @@
 ## Overview
 
 ```mermaid
+
 flowchart TD
 
     A[Entry-Level] --> B[Mid-Level] --> C[Advanced-Level]
@@ -69,3 +70,14 @@ It's useful to think about these controls and how they could be categorised. For
 1. Preventitive: a control that acts to eliminate or reduce the likelihood that an attack succeeds
 2. Detective: any control that may not prevent or deter access, but will identify and record any attempted or successful intrusion
 3. Corrective: a control that acts to eliminate or reduce the impact of an intrusion event.
+
+No single security control is invulnerable, so the efficiency of a control is instead measured by how long it delays an attack.
+
+Some other controls we should mention:
+
+* Physical: a type of security control that acts against in-person intrusion attempts (e.g. `cameras`)
+* Deterrent: a type of security control that discourages intrusion attempts
+* Compensating: a type of security control that acts as a substitute for a principal control
+* Responsive: system that actively monitors for potential vulnerabilities or attacks, and then takes action to mitigate them before they can cause damage (e.g. `firewall`)
+
+# Selecting Security Controls
