@@ -50,4 +50,14 @@ A few things that a SOC needs to have to be successful:
 6. Can seperate the signal from the noise
 7. Collaborate with other SOCs for data sharing
 
-The SOC should be the single point of contact for security, monitoring and incident response.
+The SOC should be the single point of contact for security, monitoring and incident responses.
+
+# Security Control Categories
+
+### Definition
+
+Mitigates vulnerabilities and risk to ensure the confidentiality, integrity, availability, nonrepudiation, and authentication of data.
+
+Security controls should be selected and deployed in a structured manner using a risk management framework.
+
+[Reading](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
