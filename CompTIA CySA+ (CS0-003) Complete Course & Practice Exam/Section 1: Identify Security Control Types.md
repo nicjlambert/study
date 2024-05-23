@@ -54,10 +54,18 @@ The SOC should be the single point of contact for security, monitoring and incid
 
 # Security Control Categories
 
-### Definition
+## Definition
 
 Mitigates vulnerabilities and risk to ensure the confidentiality, integrity, availability, nonrepudiation, and authentication of data.
 
 Security controls should be selected and deployed in a structured manner using a risk management framework.
 
-[Reading](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+It's useful to think about these controls and how they could be categorised. For this, familiarise youself with this at a high-level:
+
+[Further Reading NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+
+## Function types or categories
+
+1. Preventitive: a control that acts to eliminate or reduce the likelihood that an attack succeeds
+2. Detective: any control that may not prevent or deter access, but will identify and record any attempted or successful intrusion
+3. Corrective: a control that acts to eliminate or reduce the impact of an intrusion event.
