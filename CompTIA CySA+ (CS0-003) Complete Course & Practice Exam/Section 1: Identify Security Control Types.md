@@ -81,3 +81,20 @@ Some other controls we should mention:
 * Responsive: system that actively monitors for potential vulnerabilities or attacks, and then takes action to mitigate them before they can cause damage (e.g. `firewall`)
 
 # Selecting Security Controls
+
+So, how do you go about selecting the security controls you want to use?
+
+One of the best ways to go about that is to think in terms of C.I.A:
+
+```mermaid
+mindmap
+  root((Security))
+    Confidentiality
+        (Encryption)
+        (Access Controls)
+    Integrity
+        (Digital Signature)
+        (Hash)
+    Availability
+        (Elasticity - Cloud Computing Scalability)
+```
