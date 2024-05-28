@@ -47,8 +47,24 @@ You are attempting to find a way around the 48 refresh limit per day that the Po
 
 ### Question 4
 
+Microsoft Fabric supports capacity bursting and smoothing. What is the purpose of this?
+
+1. To allow you to consume extra compute resources (capacity) beyond what you have purchased, for pay-as-you-go payment plans <-- **ANS**
+2. To allow you to consume extra compute resources (capacity) beyond what you have purchased, for reserved pricing plans
+3. To allow you to consume extra compute resources (capacity) beyond what you have purchased. Microsoft will then invoice you for the excess capacity used, for pay-as-you-go payment plans
+4. To allow you to consume extra compute resources (capacity) beyond what you have purchased. Microsoft will then invoice you for the excess capacity used, for reserved payment plans.
+
+Bursting and smoothing only applies to pay-as-you-go. With resvered pricing plans you'll never pay more than you agreed to.
+
 [Reading](https://blog.fabric.microsoft.com/en-us/blog/fabric-capacities-everything-you-need-to-know-about-whats-new-and-whats-coming/)
 
 ### Question 5
+
+You purchase an F2 capacity on a pay-as-you-go basis. What happens if you consume more than 2 capacity units during a Fabric operation?
+
+1. Your request will be rejected
+2. Your request will be throttled
+3. Your request will succeed, and the excess capacity units consumed will be ignored if it only happens once per 1 hour period
+4. Your request will succeed, and the excess capacity units consumed will be applied to a point in the future when you have excess capacity.  <-- **ANS**
 
 [Reading](https://learn.microsoft.com/en-us/fabric/data-warehouse/compute-capacity-smoothing-throttling)
