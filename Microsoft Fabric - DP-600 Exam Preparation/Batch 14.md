@@ -20,14 +20,35 @@ The retention period for collaborative workspaces is configurable. The default r
 
 ### Question 2
 
+Which protocol is used to communicate between client applications and the engine that manages semantic models?
+
+1. HTTPS
+2. TDS
+3. XMLA <-- **ANS**
+4. None of these
+
+Workspaces use the XML for Analysis (XMLA) protocol for communications between client applications and the engine that manages your Power BI workspaces and semantic models.
+
+[Reading](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
+
 ### Question 3
 
+Which of these semantic models cannot be accessed using XLMA endpoints:
+
+1. Models located in a Fabric workspace
+2. Models located in My Workspace  <-- **ANS**
+3. Models using DirectQuery
+4. Direct Lake Models
+5. Models in an Excel workbook  <-- **ANS**
+
+[Reading](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
+
 ### Question 4
+
 
 ### Question 5
 
 
-https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools
-https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools
-https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index
-https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools
+
+(https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index)
+(https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
