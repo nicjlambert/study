@@ -45,10 +45,23 @@ Which of these semantic models cannot be accessed using XLMA endpoints:
 
 ### Question 4
 
+You are attempting to set up single sign on to an Oracle environment but are not able to do so. What might cause this?
+
+1. Microsoft Fabric does not support SSO to Oracle
+2. The Oracle administrator has this feature disabled
+3. Oracle SSO is disabled in the Fabric Admin portal <-- **ANS**
+4. When connecting to Oracle in Fabric you must specify authenticating via SSO
+
+[Reading](https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index)
 
 ### Question 5
 
+Which of the following applications are not able to use XMLA endpoints
 
+1. Microsoft Excel
+2. SQL Server Profiler
+3. SQL Server Management Server
+4. PowerShell
+5. All of these can use XMLA endpoints <-- **ANS**
 
-(https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index)
-(https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
+[Reading](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools)
