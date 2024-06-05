@@ -50,4 +50,12 @@ Which of the following can a Power BI service administrator perform?
 
 ### Question 5
 
+You are working on a Power BI project with a team of analysts. Your colleague sends you a .pbids file to streamline data source connections. Which of the following actions can you directly perform using this file?
+
+1. Import the data model and visualisations into your Power BI Desktop
+2. Connect to the original data source without requiring credentials
+3. Modify the underlying data sources query steps within the .pbids file
+4. Share the .pbids file with external users who don't have Power BI licenses
+5. View the data source connection details without opening Power BI Desktop <- **ANS**
+
 [Reading](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources)
