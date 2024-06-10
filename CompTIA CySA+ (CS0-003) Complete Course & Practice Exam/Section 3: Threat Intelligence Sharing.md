@@ -106,3 +106,46 @@ There are three sources of information:
     * VirusTotal
     * Impicit (can't be documented, it's based on experience - an inuition) and Explict Knowledge (can be shared)
     * OSINT
+
+## Information Sharing and Analysis Centres (ISAC)
+
+Can be split by industry for example, there can be an ISAC (or equivalent) for:
+
+* Critical Infrastructure
+    * Any physical or virtual infrastructure considered so vital that their incapacitation or destruction would have a debilitating effect on security, national economic security, national public health or safety, or any combination of these.
+
+* Government
+    * Serves non-federal governments in the US, such as state, local, tribal, and territorial governments.
+
+* Healthcare
+    * Serves healthcare providers that are often targets of criminals seeking blackmail and ransom opportunities by compromising patient data records or interfering with medical devices.
+
+* Financial
+    * Serves the financial sector to prevant fraud and extortion of both the consumer and the financial institutions.
+
+* Aviation
+    * Serves the aviation industry to prevent fraud, terrorisim, service disruptions, and unsafe operations of air traffic control systems.
+
+## Threat Intelligence Sharing
+
+Our goal here is to shoare our threat intelligence within the organisation (dissemination)
+
+### Risk Management
+
+Identifies, evaluations, and prioritizes threats and vulnerabilities to reduce their impact.
+
+### Incident Response
+
+An organised approach to addressing and managing the aftermath of a cybersecurity attack or breach. The best kind of intelligence here would be tactical-level intelligence.
+
+### Vulnerability Management
+
+The practice of identifying, classifying, prioritizing, remediating, and mitigating software vulnerabilities:
+
+ * IoT devices
+ * Deepfakes
+ * AI fuzzing
+
+#### Detection and Monitoring
+
+The practice of observing activity to identify anomalous patterns for further analysis.
