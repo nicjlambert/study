@@ -25,3 +25,47 @@ print(123 + 345)
 
 True
 False
+
+# Type error, Type checking and Type Conversion
+
+num_char = len(input("What is your name?"))
+#print("Your name has " + num_char + " characters.")
+#TypeError: can only concatenate str (not "int") to str
+print("Your name has " + str(num_char) + " characters.")
+
+print(type(num_char))
+
+
+# Data Types: write a script that takes any two digit number and adds the digits together
+
+two_digit_number = input()
+
+print(int(two_digit_number[0]) + int(two_digit_number[1]))
+
+# Mathematical Operations in Python
+
+3 + 5
+7 - 4
+3 * 2
+print(type(6 / 3)) # division will result in a float data type
+print(2 ** 2) # exponentiation
+
+# PEMDASLR
+# Parentheses
+# Exponents
+# Multiplication and Division
+# Addition and Subtraction
+# Left to Right
+
+print(3 * 3 + 3 / 3 - 3)
+
+# reordering the operations
+print(3 - 3 / 3 * 3 + 3)
+
+# BMI Calculator
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+bmi = int(weight) / int(height) ** 2
+
+print(bmi)
