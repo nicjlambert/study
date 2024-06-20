@@ -69,3 +69,24 @@ weight = input("enter your weight in kg: ")
 bmi = float(weight) / float(height) ** 2
 
 print(int(bmi))
+
+# Number manipulation and F strings in Python
+
+print(8 / 3) # 2.6666666666666665
+print(round(8 / 3)) # 3
+print(round(8 / 3, 2)) # 2.67
+print(8 // 3) # 2
+print(type(8 // 3)) # <class 'int'>
+print(type(8 / 3)) # <class 'float'>
+
+result = 4 / 2
+result /= 2
+print(result) # 1.0
+
+score = 0
+height = 1.8
+isWinning = True
+
+# f-string
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
+
