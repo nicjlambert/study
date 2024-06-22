@@ -90,3 +90,26 @@ isWinning = True
 # f-string
 print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
 
+# Number Manupulation and F strings in Python
+
+print(type(4 / 2))
+
+result = 4 / 2
+result  /= 2
+
+score = 0
+
+# User scores a point
+score += 1
+print(score)
+
+# f-String
+print(f"Your score is: {score}, and your result is {result}")
+
+# Life in weeks
+
+age = int(input("What is your current age in years?"))
+
+print(f"You have {(90 - age ) * 52} weeks left.")
+
+
