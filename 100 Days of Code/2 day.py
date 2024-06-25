@@ -62,7 +62,7 @@ print(3 * 3 + 3 / 3 - 3)
 # reordering the operations
 print(3 - 3 / 3 * 3 + 3)
 
-# BMI Calculator
+# BMI Calculator v1.0
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
