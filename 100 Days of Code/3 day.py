@@ -138,3 +138,27 @@ if add_cheese == "Y":
 
 print("Thank you for choosing Python Pizza Deliveries!")
 print(f"Your final bill is ${bill}.")
+
+# Love Calculator
+
+print("The love calculator is calculating your love score.")
+
+name1 = input("What is your name? ")
+name2 = input("What is their name? ")
+combined_names = name1 + name2
+combined_names = combined_names.lower()
+# create a list of letters
+true = ["t", "r", "u", "e"]
+love = ["l", "o", "v", "e"]
+
+scoretrue = 0
+for i in true:
+    count = combined_names.count(i)
+    scoretrue += count
+
+scorelove = 0
+for i in love:
+    count = combined_names.count(i)
+    scorelove += count
+
+print(f"Your love score is: {str(scoretrue) + str(scorelove)}.")
